@@ -7,7 +7,7 @@ LABEL description="This is a simple httpd apache server"
 RUN yum install -y httpd && \\
 yum clean all
 
-RUN echo "Hello and welcome" > /var/www/html/index/html
+RUN echo "Hello and welcome" > /var/www/html/index.html
 
 EXPOSE 80
 
